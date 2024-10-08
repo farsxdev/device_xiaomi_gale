@@ -121,6 +121,9 @@ ro.vendor.smvr.p2batch.hd=4
 ro.vendor.smvr.p2batch.vga=8
 ro.config.avoid_gfx_accel=true
 
+# Surface Flinger
+ro.sf.blurs_are_expensive=1
+
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
