@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gale.mk
+    $(LOCAL_DIR)/aosp_gale.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gale-user \
-    lineage_gale-userdebug \
-    lineage_gale-eng
+    aosp_gale-user \
+    aosp_gale-userdebug \
+    aosp_gale-eng
