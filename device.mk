@@ -412,3 +412,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/gale/gale-vendor.mk)
+
+# Signed Keys
+-include vendor/lineage-priv/keys/keys.mk
